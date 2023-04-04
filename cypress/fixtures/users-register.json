@@ -1,0 +1,37 @@
+{
+    "user1": {
+        "name": "Qax1 Um",
+        "email": "qaxteste@qax.com",
+        "password": "Teu@1234",
+        "is_shaver": false
+    },
+    "user2": {
+        "name": "Qax2 Dois",
+        "email": "qaxteste2@qax.com",
+        "password": "Teu@1234",
+        "is_shaver": false
+    },
+    "user3": {
+        "name": "Qax3 Tres",
+        "email": "qaxteste3@qax.com",
+        "password": "Teu@1234",
+        "is_shaver": false
+    },
+    "shortpass": [
+        "1",
+        "12",
+        "123",
+        "1234",
+        "12345"
+    ],
+    "invemails": [
+        "paty&gmail.com",
+        "paty.com.br",
+        "@gmail.com",
+        "@",
+        "paty@",
+        "121323",
+        "@#@!#!@",
+        "xpto123"
+    ]
+}

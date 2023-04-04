@@ -23,7 +23,7 @@ app.get('/welcome', function (req, res) {
 })
 
 app.get('/token/:email', async function (req, res) {
-    const { email } = rep.params
+    const { email } = req.params
     const token = await findToken(email)
 
 
