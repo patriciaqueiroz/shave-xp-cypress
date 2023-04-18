@@ -9,7 +9,7 @@ describe('Cadastrar usuário', () => {
     context('Quando realizar o cadastro de usuario', () => {
 
         const user = data.user3
-        it('deve realizar cadastro de usuário com sucesso', () => {
+        it.only('deve realizar cadastro de usuário com sucesso', () => {
 
             cy.visit('/')
             cy.get('.signup').click()
